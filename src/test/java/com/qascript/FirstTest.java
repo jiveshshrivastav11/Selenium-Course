@@ -12,7 +12,7 @@ public class FirstTest {
     @Test
     public void OpenBrowser()  {
         WebDriver driver;
-        String driverpath = System.getProperty("user.dir") + "/chromedriver";
+        String driverpath = "/usr/bin/chromedriver";
 		System.setProperty("webdriver.chrome.driver", driverpath);
 //         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 //         ChromeOptions options = new ChromeOptions();
