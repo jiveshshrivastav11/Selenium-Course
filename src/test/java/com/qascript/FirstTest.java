@@ -13,7 +13,7 @@ public class FirstTest {
     public void OpenBrowser()  {
         WebDriver driver;
         String driverpath = System.getProperty("user.dir") + "/chromedriver";
-		System.setProperty("webdriver.chrome.driver", driverpath + ".exe");
+		System.setProperty("webdriver.chrome.driver", driverpath);
 //         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 //         ChromeOptions options = new ChromeOptions();
 //         options.addArguments("headless");
